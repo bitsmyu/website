@@ -36,7 +36,7 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {//PHP5.1.0以上の場合の�
 $site_top = "http://ulab.myu.ac.jp/~bits/";
 
 // 管理者メールアドレス ※メールを受け取るメールアドレス(複数指定する場合は「,」で区切ってください 例 $to = "aa@aa.aa,bb@bb.bb";)
-$to = "p1622011@myu.ac.jp,ainne94225@gmail.com";
+$to = "bitsmyu@gmail.com";
 //$to = "p1222041@myu.ac.jp,ainne94225@gmail.com";
 // $to = "p1222041@myu.ac.jp,p1322038@myu.ac.jp,p1422099@myu.ac.jp,p1522026@myu.ac.jp,p1322068@myu.ac.jp";
 //フォームのメールアドレス入力箇所のname属性の値（name="○○"　の○○部分）

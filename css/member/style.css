@@ -22,8 +22,8 @@
 }
 
 #memberList .member .img {
-	width: 62%;
-    height: 360px;
+	width: 30vw;
+    height: 280px;
     float: left;
     overflow: hidden;
 }
@@ -31,17 +31,19 @@
 #memberList .member .img img {
 	margin-top: -30px;
     width: 100%;
+	object-fit: cover;
 }
 
 #memberList .member .info {
-    width: 32%;
+	padding-top: 32px;
+    width: 25%;
 	float: right;
 }
 
 #memberList .member .info .name {
     margin: 0 0 10px -6px;
     font-weight: bold;
-	font-size: 2.571em;
+	font-size: 1.571em;
     letter-spacing: 0.1em;
 }
 
