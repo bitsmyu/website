@@ -1,0 +1,110 @@
+
+#memberList {
+	margin: 0 auto 100px;
+	width: 80%;
+	max-width: 1000px;
+}
+
+#memberList .member {
+	padding-top: 100px;
+}
+
+#memberList .member:first-child {
+	padding-top: 60px;
+}
+
+#memberList .member:nth-child(even) .img {
+	float: right;
+}
+
+#memberList .member:nth-child(even) .info{
+	float: left;
+}
+
+#memberList .member .img {
+	width: 62%;
+    height: 360px;
+    float: left;
+    overflow: hidden;
+}
+
+#memberList .member .img img {
+	margin-top: -30px;
+    width: 100%;
+}
+
+#memberList .member .info {
+    width: 32%;
+	float: right;
+}
+
+#memberList .member .info .name {
+    margin: 0 0 10px -6px;
+    font-weight: bold;
+	font-size: 2.571em;
+    letter-spacing: 0.1em;
+}
+
+#memberList .member .info .nameEng {
+    margin-bottom: 30px;
+	font-size: 1.143em;
+    font-family: Quicksand;
+    letter-spacing: 0.3em;
+}
+
+#memberList .member .info .status {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+	border-bottom: 2px solid;
+}
+
+#memberList .member .info .comment {
+	margin-bottom:  20px;
+	line-height: 1.4;
+}
+
+#memberList .member .info .works a {
+	margin: 0 10px 10px 0;
+	padding: 5px 10px;
+	background: #49a078;
+	color: #fff;
+	display: inline-block;
+}
+
+/*clearfix*/
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media screen and (max-width:900px) {
+	#memberList .member .img {
+		margin-bottom: 20px;
+		width: 100%;
+		max-height: 340px;
+		height: auto;
+		float: none;
+	}
+
+	#memberList .member .info {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media screen and (max-width:480px) {
+	#memberList .member .info .name {
+	    margin: 0 0 5px -5px;
+	    font-size: 2.0em;
+	}
+
+	#memberList .member:first-child {
+		padding-top: 80px;
+	}
+
+}
+
+
+
+
